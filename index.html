@@ -7,12 +7,14 @@
   <meta name="description" content="Building tools at the intersection of AI, data, and personal knowledge management.">
   <meta property="og:title" content="makino">
   <meta property="og:description" content="Data PM by day, building AI-powered tools by night.">
-  <meta property="og:url" content="https://makinotes.github.io">
+  <meta property="og:url" content="https://me.makinote.com">
   <meta property="og:type" content="website">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>M</text></svg>">
 </head>
 <body>
+  <div class="grain"></div>
+
   <div class="container">
 
     <nav>
@@ -25,69 +27,98 @@
     </nav>
 
     <div class="hero">
-      <h1>Data PM by day,<br>building <span class="accent">AI-powered tools</span> by night.</h1>
-      <p>I build tools at the intersection of AI, data, and personal knowledge management. Then I write about the process.</p>
+      <div class="hero-glow"></div>
+      <div class="hero-eyebrow">Data PM / AI Tools Builder</div>
+      <h1>I build tools, then<br>write about <span class="accent">the process</span>.</h1>
+      <p>Focused on the intersection of AI, data, and personal knowledge management. Shipping open-source projects from Shanghai.</p>
       <div class="hero-links">
-        <a href="https://github.com/makinotes">GitHub</a>
-        <a href="mailto:chenyyhit@gmail.com">Email</a>
+        <a href="https://github.com/makinotes" class="btn-primary" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:chenyyhit@gmail.com" class="btn-ghost">Get in touch</a>
       </div>
     </div>
 
     <section id="projects">
-      <div class="section-label">Projects</div>
+      <div class="section-header">
+        <div class="section-label">Projects</div>
+        <div class="section-line"></div>
+      </div>
 
       <a class="project-card" href="https://github.com/makinotes/ai-daily-harvest" target="_blank" rel="noopener">
-        <div class="project-header">
-          <div class="project-name">AI Daily Harvest</div>
-          <span class="project-arrow">&nearr;</span>
-        </div>
-        <div class="project-desc">Daily learning feed for AI agents. 40+ sources scored and structured into JSON. Updated every day, automatically.</div>
-        <div class="project-tags">
-          <span class="tag">Python</span>
-          <span class="tag">AI Agents</span>
-          <span class="tag">RSS</span>
+        <div class="project-number">01</div>
+        <div class="project-body">
+          <div class="project-header">
+            <div class="project-name">AI Daily Harvest</div>
+            <svg class="project-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </div>
+          <div class="project-desc">Daily learning feed for AI agents. 40+ sources scored and structured into JSON. Updated every day, automatically.</div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">AI Agents</span>
+            <span class="tag">RSS</span>
+          </div>
         </div>
       </a>
 
       <a class="project-card" href="https://github.com/makinotes/onepage-system" target="_blank" rel="noopener">
-        <div class="project-header">
-          <div class="project-name">One Page System</div>
-          <span class="project-arrow">&nearr;</span>
-        </div>
-        <div class="project-desc">A personal information management starter kit built on Obsidian. One page is all you need to see each day.</div>
-        <div class="project-tags">
-          <span class="tag">Obsidian</span>
-          <span class="tag">PKM</span>
+        <div class="project-number">02</div>
+        <div class="project-body">
+          <div class="project-header">
+            <div class="project-name">One Page System</div>
+            <svg class="project-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </div>
+          <div class="project-desc">A personal information management starter kit built on Obsidian. One page is all you need to see each day.</div>
+          <div class="project-tags">
+            <span class="tag">Obsidian</span>
+            <span class="tag">PKM</span>
+          </div>
         </div>
       </a>
     </section>
 
     <section id="writing">
-      <div class="section-label">Writing</div>
-      <div class="writing-block">
-        <div class="writing-icon">M</div>
-        <div class="writing-info">
-          <h3>马奇诺</h3>
-          <p>A WeChat public account where I write about AI, data, and personal knowledge management. In Chinese.</p>
+      <div class="section-header">
+        <div class="section-label">Writing</div>
+        <div class="section-line"></div>
+      </div>
+      <div class="writing-card">
+        <div class="writing-badge">WeChat</div>
+        <h3 class="writing-title">马奇诺</h3>
+        <p class="writing-desc">Writing about AI, data, and personal knowledge management. Sharing what I learn from building tools and systems. In Chinese.</p>
+        <div class="writing-topics">
+          <span>AI Infrastructure</span>
+          <span>Data Products</span>
+          <span>PKM Systems</span>
         </div>
       </div>
     </section>
 
     <section id="about">
-      <div class="section-label">About</div>
-      <p class="about-text">
-        I'm a <strong>Data Product Manager</strong> who builds AI-powered tools to solve my own problems. Currently focused on AI agent infrastructure and quantitative analysis systems. I believe the best tools come from scratching your own itch.
-      </p>
-      <div class="stack-list">
-        <span class="stack-item">Python</span>
-        <span class="stack-item">Next.js</span>
-        <span class="stack-item">Obsidian</span>
-        <span class="stack-item">Claude Code</span>
+      <div class="section-header">
+        <div class="section-label">About</div>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <strong>Data Product Manager</strong> based in Shanghai. I build AI-powered tools to solve my own problems — then open-source them.</p>
+          <p>Currently focused on AI agent infrastructure and quantitative analysis systems. I believe the best tools come from scratching your own itch.</p>
+        </div>
+        <div class="about-stack">
+          <div class="stack-label">Stack</div>
+          <div class="stack-list">
+            <span class="stack-item">Python</span>
+            <span class="stack-item">Next.js</span>
+            <span class="stack-item">Obsidian</span>
+            <span class="stack-item">Claude Code</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <footer>
-      <div class="footer-left">makino</div>
+      <div class="footer-left">makino &mdash; Shanghai</div>
       <div class="footer-links">
         <a href="https://github.com/makinotes" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:chenyyhit@gmail.com">Email</a>
