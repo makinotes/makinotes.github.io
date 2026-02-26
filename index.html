@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>makino — Senior Data Product Manager & AI Tools Builder</title>
-  <meta name="description" content="makino (Chen Yanyu) is a Senior Data Product Manager at Tencent with 7 years of experience in search, AI, and growth. Building open-source AI tools, experimentation platforms, and knowledge management systems.">
+  <title>makino — 数据产品经理 & AI 工具构建者</title>
+  <meta name="description" content="makino (Chen Yanyu) 是一名资深数据产品经理，7 年搜索、AI、增长经验。白天搭数据基建，晚上用 Claude Code 造 AI 工具。">
   <meta name="author" content="makino">
-  <meta name="keywords" content="makino, data product manager, Tencent, AI tools, knowledge management, Obsidian, Python, experimentation platform, quantitative analysis">
+  <meta name="keywords" content="makino, 数据产品经理, AI tools, knowledge management, Obsidian, Python, Claude Code">
   <link rel="canonical" href="https://me.makinote.com">
   <!-- Open Graph -->
-  <meta property="og:title" content="makino — Senior Data PM & AI Tools Builder">
-  <meta property="og:description" content="Senior Data Product Manager at Tencent. 7 years in search, AI, and growth. Building open-source AI tools and knowledge management systems.">
+  <meta property="og:title" content="makino — 数据产品经理 & AI 工具构建者">
+  <meta property="og:description" content="白天搭数据基建，晚上用 Claude Code 造 AI 工具。">
   <meta property="og:url" content="https://me.makinote.com">
   <meta property="og:type" content="profile">
   <meta property="og:site_name" content="makino">
@@ -75,7 +75,7 @@
     "author": { "@type": "Person", "name": "makino" }
   }]
   </script>
-  <!-- JSON-LD: FAQPage (invisible, for AI extraction) -->
+  <!-- JSON-LD: FAQPage -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -86,7 +86,7 @@
         "name": "Who is makino?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "makino (Chen Yanyu) is a Senior Data Product Manager at Tencent with 7 years of experience in search, AI, and growth. He specializes in metrics systems, experimentation platforms, and data tooling. He also builds open-source AI tools and writes about AI, data, and personal knowledge management on his WeChat public account 马奇诺."
+          "text": "makino (Chen Yanyu) is a Senior Data Product Manager at Tencent with 7 years of experience in search, AI, and growth. He builds open-source AI tools and writes about AI, data, and personal knowledge management on his WeChat public account 马奇诺."
         }
       },
       {
@@ -94,7 +94,7 @@
         "name": "What does makino build?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "makino builds open-source tools including AI Daily Harvest (a daily learning feed for AI agents with 40+ sources scored into JSON) and One Page System (a personal information management starter kit for Obsidian). He also works on AI agent infrastructure, quantitative investing systems, and knowledge management tools."
+          "text": "makino builds open-source tools including AI Daily Harvest (a daily learning feed for AI agents with 40+ sources scored into JSON) and One Page System (a personal information management starter kit for Obsidian). He also builds personal AI infrastructure with automated briefing systems and knowledge management pipelines."
         }
       },
       {
@@ -119,30 +119,30 @@
     <nav aria-label="Main navigation">
       <a class="nav-name" href="/">makino</a>
       <ul class="nav-links">
-        <li><a href="#projects"><span class="num">01.</span>Projects</a></li>
-        <li><a href="#writing"><span class="num">02.</span>Writing</a></li>
-        <li><a href="#about"><span class="num">03.</span>About</a></li>
+        <li><a href="#projects"><span class="num">01.</span><span data-i18n="nav.projects">Projects</span></a></li>
+        <li><a href="#writing"><span class="num">02.</span><span data-i18n="nav.writing">Writing</span></a></li>
+        <li><a href="#about"><span class="num">03.</span><span data-i18n="nav.about">About</span></a></li>
+        <li><button class="lang-toggle" onclick="toggleLang()" aria-label="Switch language">EN</button></li>
       </ul>
     </nav>
 
     <header class="hero">
       <div class="hero-glow"></div>
-      <div class="hero-eyebrow">Senior Data PM / AI Tools Builder</div>
-      <h1>I build tools, then<br>write about <span class="accent">the process</span>.</h1>
-      <p>7 years in data products at Tencent. Building AI-powered tools for knowledge management, experimentation, and quantitative analysis.</p>
+      <div class="hero-eyebrow" data-i18n="hero.eyebrow">资深数据产品经理 / AI 工具构建者</div>
+      <h1 data-i18n-html="hero.title">白天搭数据基建，<br>晚上造 <span class="accent">AI 工具</span>。</h1>
+      <p data-i18n="hero.desc">7 年数据产品经验，做过搜索、AB 实验、数据基建。下班后打开 Claude Code，给自己搭了一整套 AI 工作流。</p>
       <div class="hero-links">
         <a href="https://github.com/makinotes" class="btn-primary" target="_blank" rel="noopener">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
           GitHub
         </a>
         <a href="mailto:chenyyhit@gmail.com" class="btn-ghost">Email</a>
-        <a href="#writing" class="btn-ghost">WeChat: 马奇诺</a>
       </div>
     </header>
 
     <section id="projects" aria-labelledby="projects-heading">
       <div class="section-header">
-        <h2 id="projects-heading" class="section-label"><span class="num">01.</span>Projects</h2>
+        <h2 id="projects-heading" class="section-label"><span class="num">01.</span><span data-i18n="nav.projects">Projects</span></h2>
         <div class="section-line"></div>
       </div>
 
@@ -154,7 +154,7 @@
               <h3 class="project-name">AI Daily Harvest</h3>
               <svg class="project-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
             </div>
-            <p class="project-desc">Daily learning feed for AI agents. 40+ sources scored and structured into JSON. Updated every day, automatically.</p>
+            <p class="project-desc" data-i18n="project.harvest.desc">每天自动抓 40+ 信息源，评分、结构化成 JSON，喂给 AI agent 当早餐。</p>
             <div class="project-tags">
               <span class="tag">Python</span>
               <span class="tag">AI Agents</span>
@@ -172,7 +172,7 @@
               <h3 class="project-name">One Page System</h3>
               <svg class="project-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
             </div>
-            <p class="project-desc">A personal information management starter kit built on Obsidian. One page is all you need to see each day.</p>
+            <p class="project-desc" data-i18n="project.onepage.desc">Obsidian 个人知识管理 starter kit。每次从零搭笔记系统太痛苦了，干脆开源一个。</p>
             <div class="project-tags">
               <span class="tag">Obsidian</span>
               <span class="tag">PKM</span>
@@ -184,39 +184,51 @@
 
     <section id="writing" aria-labelledby="writing-heading">
       <div class="section-header">
-        <h2 id="writing-heading" class="section-label"><span class="num">02.</span>Writing</h2>
+        <h2 id="writing-heading" class="section-label"><span class="num">02.</span><span data-i18n="nav.writing">Writing</span></h2>
         <div class="section-line"></div>
       </div>
-      <div class="writing-card">
-        <div class="writing-badge">WeChat Public Account</div>
-        <h3 class="writing-title">马奇诺</h3>
-        <p class="writing-desc">Writing about AI, data, and personal knowledge management. Sharing what I learn from building tools and systems. In Chinese. Search "马奇诺" on WeChat to follow.</p>
-        <div class="writing-topics">
-          <span>AI Infrastructure</span>
-          <span>Data Products</span>
-          <span>PKM Systems</span>
+      <div class="writing-grid">
+        <div class="writing-card">
+          <div class="writing-badge" data-i18n="writing.badge">微信公众号</div>
+          <h3 class="writing-title">马奇诺</h3>
+          <p class="writing-desc" data-i18n="writing.makino.desc">AI、数据、知识管理。不卖课，不割韭菜，记录一个数据 PM 晚上搞 AI 的田野笔记。</p>
+          <div class="writing-topics">
+            <span data-i18n="writing.makino.t1">AI 基础设施</span>
+            <span data-i18n="writing.makino.t2">数据产品</span>
+            <span data-i18n="writing.makino.t3">知识管理</span>
+          </div>
         </div>
+        <a class="writing-card writing-card-link" href="https://makino.netlify.app/" target="_blank" rel="noopener">
+          <div class="writing-badge" data-i18n="writing.garden.badge">Digital Garden</div>
+          <h3 class="writing-title" data-i18n="writing.garden.title">数字花园</h3>
+          <p class="writing-desc" data-i18n="writing.garden.desc">种的都是还没长好的想法。关于知识管理、数据产品和 AI 实践的笔记。</p>
+          <svg class="writing-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
       </div>
     </section>
 
     <section id="about" aria-labelledby="about-heading">
       <div class="section-header">
-        <h2 id="about-heading" class="section-label"><span class="num">03.</span>About</h2>
+        <h2 id="about-heading" class="section-label"><span class="num">03.</span><span data-i18n="nav.about">About</span></h2>
         <div class="section-line"></div>
       </div>
       <div class="about-grid">
         <div class="about-text">
-          <p><strong>Senior Data Product Manager</strong> with 7 years of experience in search, AI, and growth at Tencent. I build metrics systems, experimentation platforms, and data tooling that turns raw signals into decisions.</p>
-          <p>After hours, I build open-source tools for the same reason — to solve my own problems. Currently into AI agent infrastructure, quantitative investing systems, and personal knowledge management.</p>
+          <p data-i18n-html="about.p1"><strong>资深数据产品经理</strong>，7 年搜索、AI、增长经验。搭过数据基建、AB 实验平台、分析工具，干的活就是把原始数据变成可以做决策的东西。</p>
+          <p data-i18n-html="about.p2">下班后给自己搭了一套 <strong>Personal AI Infra</strong>：定时任务跑简报、外挂大脑自动学习、Skills 系统编排工作流。用数据仓库的分层思路管个人知识。白天给公司搭数据基建，晚上给自己搭。</p>
+          <p class="about-quote" data-i18n="about.quote">coding is cheap, show me your talk.</p>
         </div>
         <div class="about-stack">
-          <div class="stack-label">Stack</div>
+          <div class="stack-label" data-i18n="about.stack.day">Day Job</div>
           <ul class="stack-list">
             <li class="stack-item">Python</li>
             <li class="stack-item">SQL</li>
+          </ul>
+          <div class="stack-label stack-label-night" data-i18n="about.stack.night">After Hours</div>
+          <ul class="stack-list">
+            <li class="stack-item">Claude Code</li>
             <li class="stack-item">Next.js</li>
             <li class="stack-item">Obsidian</li>
-            <li class="stack-item">Claude Code</li>
           </ul>
         </div>
       </div>
@@ -227,10 +239,81 @@
       <div class="footer-links">
         <a href="https://github.com/makinotes" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:chenyyhit@gmail.com">Email</a>
-        <span class="footer-wechat">WeChat: 马奇诺</span>
+        <span class="footer-wechat" data-i18n="footer.wechat">WeChat: 马奇诺</span>
       </div>
     </footer>
 
   </main>
+
+  <script>
+  const i18n = {
+    zh: {
+      'nav.projects': 'Projects',
+      'nav.writing': 'Writing',
+      'nav.about': 'About',
+      'hero.eyebrow': '资深数据产品经理 / AI 工具构建者',
+      'hero.title': '白天搭数据基建，<br>晚上造 <span class="accent">AI 工具</span>。',
+      'hero.desc': '7 年数据产品经验，做过搜索、AB 实验、数据基建。下班后打开 Claude Code，给自己搭了一整套 AI 工作流。',
+      'project.harvest.desc': '每天自动抓 40+ 信息源，评分、结构化成 JSON，喂给 AI agent 当早餐。',
+      'project.onepage.desc': 'Obsidian 个人知识管理 starter kit。每次从零搭笔记系统太痛苦了，干脆开源一个。',
+      'writing.badge': '微信公众号',
+      'writing.makino.desc': 'AI、数据、知识管理。不卖课，不割韭菜，记录一个数据 PM 晚上搞 AI 的田野笔记。',
+      'writing.makino.t1': 'AI 基础设施',
+      'writing.makino.t2': '数据产品',
+      'writing.makino.t3': '知识管理',
+      'writing.garden.badge': 'Digital Garden',
+      'writing.garden.title': '数字花园',
+      'writing.garden.desc': '种的都是还没长好的想法。关于知识管理、数据产品和 AI 实践的笔记。',
+      'about.p1': '<strong>资深数据产品经理</strong>，7 年搜索、AI、增长经验。搭过数据基建、AB 实验平台、分析工具，干的活就是把原始数据变成可以做决策的东西。',
+      'about.p2': '下班后给自己搭了一套 <strong>Personal AI Infra</strong>：定时任务跑简报、外挂大脑自动学习、Skills 系统编排工作流。用数据仓库的分层思路管个人知识。白天给公司搭数据基建，晚上给自己搭。',
+      'about.quote': 'coding is cheap, show me your talk.',
+      'about.stack.day': 'Day Job',
+      'about.stack.night': 'After Hours',
+      'footer.wechat': 'WeChat: 马奇诺'
+    },
+    en: {
+      'nav.projects': 'Projects',
+      'nav.writing': 'Writing',
+      'nav.about': 'About',
+      'hero.eyebrow': 'Senior Data PM / AI Tools Builder',
+      'hero.title': 'I build data infra by day,<br>and <span class="accent">AI tools</span> by night.',
+      'hero.desc': '7 years in data products — search, A/B testing, data infrastructure. After hours, I open Claude Code and build my own AI workflow from scratch.',
+      'project.harvest.desc': 'Daily learning feed for AI agents. 40+ sources scored and structured into JSON. My agents read more articles than I do.',
+      'project.onepage.desc': 'A personal knowledge management starter kit built on Obsidian. Because setting up a note system from zero is painful every time.',
+      'writing.badge': 'WeChat Public Account',
+      'writing.makino.desc': 'Writing about AI, data, and PKM. No courses, no hype — just field notes from a data PM who builds AI tools at night. In Chinese.',
+      'writing.makino.t1': 'AI Infrastructure',
+      'writing.makino.t2': 'Data Products',
+      'writing.makino.t3': 'PKM Systems',
+      'writing.garden.badge': 'Digital Garden',
+      'writing.garden.title': 'Digital Garden',
+      'writing.garden.desc': 'Half-formed ideas growing in public. Notes on knowledge management, data products, and AI practices.',
+      'about.p1': '<strong>Senior Data Product Manager</strong> with 7 years in search, AI, and growth. I build metrics systems, A/B testing platforms, and data tooling that turns raw signals into decisions.',
+      'about.p2': 'After hours, I built a full <strong>Personal AI Infra</strong>: automated briefings, self-learning external brains, and a Skills system that orchestrates all workflows. Same data warehouse thinking — ODS to DWS — but for personal knowledge. Building data infra for my company by day, for myself by night.',
+      'about.quote': 'coding is cheap, show me your talk.',
+      'about.stack.day': 'Day Job',
+      'about.stack.night': 'After Hours',
+      'footer.wechat': 'WeChat: 马奇诺'
+    }
+  };
+
+  let currentLang = 'zh';
+
+  function toggleLang() {
+    currentLang = currentLang === 'zh' ? 'en' : 'zh';
+    document.documentElement.lang = currentLang === 'zh' ? 'zh' : 'en';
+    document.querySelector('.lang-toggle').textContent = currentLang === 'zh' ? 'EN' : '中文';
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (i18n[currentLang][key]) el.textContent = i18n[currentLang][key];
+    });
+
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+      const key = el.getAttribute('data-i18n-html');
+      if (i18n[currentLang][key]) el.innerHTML = i18n[currentLang][key];
+    });
+  }
+  </script>
 </body>
 </html>
