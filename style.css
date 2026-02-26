@@ -18,9 +18,9 @@
   --text-bright: #000000;
   --text-secondary: #666666;
   --text-dim: #999999;
-  --accent: #000000;
-  --accent-soft: rgba(0, 0, 0, 0.04);
-  --accent-medium: rgba(0, 0, 0, 0.1);
+  --accent: #1a2b4a;
+  --accent-soft: rgba(26, 43, 74, 0.04);
+  --accent-medium: rgba(26, 43, 74, 0.1);
 }
 
 html {
@@ -264,8 +264,8 @@ section {
 .project-card {
   display: flex;
   gap: 28px;
-  padding: 32px;
-  margin-bottom: 16px;
+  padding: 28px 32px;
+  margin-bottom: 4px;
   border-radius: 8px;
   border: 1px solid transparent;
   background: transparent;
@@ -374,6 +374,12 @@ section {
   overflow: hidden;
   border: 1px solid var(--border);
   transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.writing-card .writing-desc {
+  flex: 1;
 }
 
 .writing-card:hover {
@@ -494,9 +500,12 @@ section {
 .about-quote {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.8125rem;
-  color: var(--text-dim);
+  color: var(--accent);
   font-style: italic;
-  margin-top: 20px;
+  margin-top: 24px;
+  padding-left: 16px;
+  border-left: 2px solid var(--accent);
+  opacity: 0.7;
 }
 
 .stack-label {
