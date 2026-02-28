@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://me.makinote.com/</loc>
+    <loc>https://makinote.cn/</loc>
     <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://me.makinote.com/ai-daily-feed/</loc>
+    <loc>https://makinote.cn/ai-daily-feed/</loc>
     <lastmod>2026-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

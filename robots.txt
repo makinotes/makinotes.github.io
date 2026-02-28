@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://me.makinote.com/sitemap.xml
+Sitemap: https://makinote.cn/sitemap.xml
