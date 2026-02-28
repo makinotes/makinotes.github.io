@@ -42,7 +42,7 @@
   text-decoration: none;
   transition: color 0.15s;
 }
-.site-nav-links a:hover { color: #1A1A1A; }
+.site-nav-links a:hover { color: #111; }
 
 /* Projects dropdown */
 .nav-dropdown {
@@ -61,7 +61,7 @@
   padding: 0;
   transition: color 0.15s;
 }
-.nav-dropdown-trigger:hover { color: #1A1A1A; }
+.nav-dropdown-trigger:hover { color: #111; }
 
 .nav-dropdown-trigger svg {
   width: 10px;

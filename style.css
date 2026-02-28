@@ -192,6 +192,5 @@ footer a:hover { color: var(--accent); text-decoration: none; }
   .hero { padding: 48px 0 40px; }
   .hero-title { font-size: 2rem; }
   .container { padding: 0 20px; }
-  .writing-item { flex-direction: column; gap: 2px; }
   footer { flex-direction: column; gap: 12px; align-items: flex-start; }
 }
