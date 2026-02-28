@@ -88,6 +88,15 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 .hero-links a:hover { color: var(--accent); text-decoration: none; }
 .hero-links .sep { color: var(--border); }
+.hero-writing {
+  font-family: var(--body);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+.writing-note {
+  color: var(--border-hover);
+  margin-left: 2px;
+}
 
 /* ── Section ── */
 section { padding: 40px 0; }
