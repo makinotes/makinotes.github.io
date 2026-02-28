@@ -36,17 +36,17 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* ── Hero ── */
 .hero {
-  padding: 72px 0 56px;
+  padding: 64px 0 48px;
   animation: fadeUp 0.6s ease both;
 }
 
 .hero-title {
   font-family: var(--serif);
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  line-height: 1.15;
+  line-height: 1.2;
   letter-spacing: -0.02em;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 .hero-title em {
   font-style: italic;
@@ -54,30 +54,15 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 
 .hero-sub {
-  font-size: 0.9375rem;
-  color: var(--text-secondary);
-  max-width: 560px;
-  line-height: 1.8;
-}
-.hero-sub + .hero-sub { margin-top: 10px; }
-.hero-sub strong { color: var(--text); font-weight: 500; }
-
-.hero-quote {
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  color: var(--accent);
-  margin-top: 20px;
-  padding-left: 16px;
-  border-left: 2px solid var(--accent);
-  opacity: 0.6;
-  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  margin-bottom: 16px;
 }
 
 .hero-links {
   display: flex;
   gap: 20px;
   align-items: center;
-  margin-top: 24px;
 }
 .hero-links a {
   font-family: var(--mono);
@@ -88,15 +73,6 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 }
 .hero-links a:hover { color: var(--accent); text-decoration: none; }
 .hero-links .sep { color: var(--border); }
-.hero-writing {
-  font-family: var(--body);
-  font-size: 0.75rem;
-  color: var(--text-dim);
-}
-.writing-note {
-  color: var(--border-hover);
-  margin-left: 2px;
-}
 
 /* ── Section ── */
 section { padding: 40px 0; }
@@ -171,45 +147,26 @@ section { padding: 40px 0; }
   letter-spacing: 0.02em;
 }
 
-/* ── Writing ── */
-.writing-list { list-style: none; }
-
-.writing-item {
+/* ── About ── */
+.about p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 560px;
+}
+.about-meta {
   display: flex;
-  align-items: baseline;
   gap: 16px;
-  padding: 14px 0;
-  border-bottom: 1px solid var(--border);
-}
-.writing-item:last-child { border-bottom: none; }
-
-.writing-name {
-  font-family: var(--serif);
-  font-size: 1.125rem;
-  color: var(--text);
-}
-
-.writing-dot { color: var(--border); }
-
-.writing-desc {
-  font-size: 0.8125rem;
-  color: var(--text-dim);
-}
-
-.stack-row {
-  display: flex;
-  gap: 8px;
   flex-wrap: wrap;
-  margin-top: 20px;
-}
-.stack-chip {
+  margin-top: 12px;
   font-family: var(--mono);
   font-size: 0.6875rem;
-  color: var(--text-secondary);
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  padding: 5px 14px;
-  border-radius: 3px;
+  color: var(--text-dim);
+}
+.about-writing {
+  font-size: 0.8125rem;
+  color: var(--text-dim);
+  margin-top: 12px;
 }
 
 /* ── Footer ── */
