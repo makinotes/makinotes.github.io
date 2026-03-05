@@ -6,7 +6,7 @@
 <title>makino — Data PM & Builder</title>
 <meta name="description" content="数据产品经理，7 年搜索/AI/增长经验。白天搞数据，晚上 Vibe Coding 各种 AI 工具。">
 <meta name="author" content="makino">
-<link rel="canonical" href="https://makinote.cn">
+<link rel="canonical" href="https://makinote.cn/">
 <meta property="og:title" content="makino — Data PM & Builder">
 <meta property="og:description" content="白天搞数据，晚上 Vibe Coding 各种 AI 工具和小产品。">
 <meta property="og:url" content="https://makinote.cn">
@@ -41,6 +41,13 @@
   "name": "One Page System",
   "description": "Obsidian personal knowledge management starter kit.",
   "codeRepository": "https://github.com/makinotes/onepage-system",
+  "author": { "@type": "Person", "name": "makino" }
+},{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Materials",
+  "description": "Personal materials sharing — deployment logs, AI learning notes, curated resources.",
+  "url": "https://makinote.cn/materials/",
   "author": { "@type": "Person", "name": "makino" }
 }]
 </script>
@@ -152,12 +159,14 @@
 </main>
 
 <div id="qr-modal" style="display:none;position:fixed;inset:0;z-index:999;align-items:center;justify-content:center;background:rgba(0,0,0,0.5);backdrop-filter:blur(4px)" onclick="this.style.display='none'">
-  <div style="background:#fff;border-radius:8px;padding:32px;text-align:center;max-width:280px" onclick="event.stopPropagation()">
+  <div style="background:#fff;border-radius:8px;padding:32px;text-align:center;max-width:280px;position:relative" onclick="event.stopPropagation()">
+    <button onclick="document.getElementById('qr-modal').style.display='none'" style="position:absolute;top:8px;right:12px;background:none;border:none;font-size:1.25rem;color:#999;cursor:pointer;line-height:1">&times;</button>
     <img src="wechat-qr.jpg" alt="马奇诺公众号二维码" style="width:200px;height:200px;border-radius:4px">
     <p style="margin-top:12px;font-size:0.875rem;color:#111">马奇诺</p>
     <p style="margin-top:4px;font-size:0.75rem;color:#888">微信扫码关注</p>
   </div>
 </div>
+<script>document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('qr-modal').style.display='none'})</script>
 
 </body>
 </html>
